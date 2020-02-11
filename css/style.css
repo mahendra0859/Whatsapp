@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  width: 500px;
+  margin: auto;
+}
+.chat {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #f1f0e8;
+}
+.chat-header {
+  display: flex;
+  cursor: pointer;
+}
+.profile {
+  width: 100%;
+  background: #036055;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 0px 10px;
+  position: relative;
+}
+.profile .pp {
+}
